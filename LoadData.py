@@ -20,8 +20,9 @@ log_path = "upload.log"
 
 # ✅ DB 연결
 connection = pymysql.connect(
-    host='localhost',
-    user='ksm',
+    host='127.0.0.1',
+    port=3307,
+    user='ksw',
     password='capstone',
     db='weatherCenter',
     charset='utf8mb4'
